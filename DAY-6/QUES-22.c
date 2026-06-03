@@ -11,7 +11,7 @@ int main(){
         i++;
         n=n/10;
     }
-printf("decimal no. is :- %d",decimal);    
+printf("The decimal no. is :- %d",decimal);    
 return 0;
 }
 

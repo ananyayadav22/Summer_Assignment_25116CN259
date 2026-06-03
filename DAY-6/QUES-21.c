@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n,i=0,j,binary[32],rem;
-    printf("Enter the decimal no. to convert in binary : ");
+    printf("Enter the decimal no. to convert it in binary : ");
     scanf("%d",&n);
     printf("Binary no. is :-");
 

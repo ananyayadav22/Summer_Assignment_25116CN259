@@ -10,5 +10,5 @@ int main(){
        }
      n=n>>1;  
     }
-    printf("The set bits are : %d",i);
+    printf("The set bits of no. are : %d",i);
 }    
