@@ -15,18 +15,13 @@ int main(){
     }
     cout<<endl;
     int search,duplicacy=0;
-    cout<<"Enter the no. for which you want to check duplicacy :";
+    cout<<"Enter the no. for which you want to find duplicacy :";
     cin>>search;
     for(int index=0;index<=n-1;index++){
         if(arr[index]==search){
         duplicacy++;
         }
     }
-    if(duplicacy>=2){
-         cout<<"The duplicacy of searched no. is present"<<endl;
-    }
-    else{
-        cout<<"The duplicacy of searched no. is not present"<<endl;
-    }
+    cout<<"The duplicacy of searched no. is : "<<duplicacy<<endl;
     return 0;
 }
